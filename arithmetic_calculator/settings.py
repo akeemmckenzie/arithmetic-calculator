@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-k-h1m05a8(0#fbl^y%hev5onk)x+zry-^0(q(w2$*62l%_ulsj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arithmetic-calculator.herokuapp.com']
 
 
 # Application definition
@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://arithmetic-calculator.herokuapp.com/"
+    'arithmetic-calculator.herokuapp.com'
 ]
 
 # settings.py
