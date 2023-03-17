@@ -99,8 +99,6 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 
 
 ROOT_URLCONF = 'arithmetic_calculator.urls'
@@ -171,7 +169,8 @@ AUTH_USER_MODEL = 'calculator.CustomUser'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'staticfiles/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
