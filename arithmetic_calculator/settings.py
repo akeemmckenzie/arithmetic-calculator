@@ -58,7 +58,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Replace with your frontend origin
+    "http://localhost:3000",
+    "https://arithmetic-calculator.herokuapp.com/"
 ]
 
 # settings.py
