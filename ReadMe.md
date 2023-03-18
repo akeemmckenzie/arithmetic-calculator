@@ -1,4 +1,4 @@
-# Arithmetic Calculator REST API**
+# Arithmetic Calculator REST API
 Arithmetic Calculator is a web platform providing a simple calculator functionality with a REST API. Users can perform addition, subtraction, multiplication, division, square root operations, and random string generation. Each functionality has a separate cost per request. The user's balance is updated with each request, and requests are denied if the balance isn't sufficient.
 
 This repository includes both the backend (built with Django and Django Rest Framework) and the frontend (built with React and Material-UI).
